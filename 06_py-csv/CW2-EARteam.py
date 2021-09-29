@@ -4,7 +4,7 @@
 #2021-09-28
 
 # Findings
-#1 Knowing a library well and its functionality is better with documentation
+#1 DictReader is dictionary reader
 #2 Doing frequent run checks is good so that you make sure that you aren't
 ## working with code that you will have to scrap later because it just doesn't
 ## work.
@@ -43,17 +43,15 @@ for row in occupations:
 	row_values = tuple(row.values()) #gets rid of the unecessary keys informations #angela note- its a uneditable list apparently
 	job_percentages[row_values[0]] = float(row_values[1]) #maps jobs to their percentages of workforce in dict
 
-# debug_print(job_percentages)
-
 #generates a random job given a probability dict formatted {job: percentage with total at the bottom}
 def random_job(probability_book = job_percentages): #default argument provided. Valid for an assignment use case.
 	import random
 	if DEBUG:
-		random.seed(a=42) #sets seed for predictable testing
+		random.seed(a=42) #sets seed for predictable testing 
 
 	#upper bound is 100 as despite the exclusive end, we are including 0 in our set of rng numbers
 	#Step is 0.1 because that's the accuracy to which the data is to.
-	number_rolled = random.randrange(0, 1000, 1) / 10 #randrange does not accept floats as inputs, so we make do
+	number_rolled = random.randrange(0, 1000, 1) / 10 #randrange does not accept floats as inputs, so we make do #angela note- randrange = random range
 	debug_print(number_rolled)
 	#sum of probabilities of jobs iterated through. Uses DND esque DC check, with a job's given DC/valid range
 	#being the end of the previous job's upper bound and its own upper bound.
