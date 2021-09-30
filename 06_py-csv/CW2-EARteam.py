@@ -5,10 +5,7 @@
 
 # Findings
 #1 DictReader is dictionary reader
-#2 Doing frequent run checks is good so that you make sure that you aren't
-## working with code that you will have to scrap later because it just doesn't
-## work.
-#3 Commit frequently in case you need to go back.
+#2 Commit frequently in case you need to go back.
 
 ## CSV Specific Findings:
 #1 The CSV dictreader likes to read it in with the first row as a header for
