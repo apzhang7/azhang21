@@ -1,0 +1,13 @@
+Pineapple Ducks (Sean G., Julia N., Angela Z.)
+K08 -- Looking At Other Workshops
+
+Questions:
+- How would our programs' running time scale in comparison with larger CSV files?
+- Are they any inefficiancies that can be fixed simply?
+- Can a freshie understand this?
+
+Comments:
+- One of our teammates' codes uses 
+
+Concerns:
+- 
