@@ -13,7 +13,8 @@ Questions:
 Comments:
 - One of our teammates' codes uses a second dictionary in order to store consecutive sums
 - One of out teammates had their weighted occupation selector return unemployed for with a percentage of 100 - the total percentages of the occupations
-- Most of our teamates used a consecutive sum to solve the problem, but one instead produced a random percentage as a float and then used consecutive subtraction from that float, returing the final occupation that tipped this new value either to zero or below it
+- Most of our teamates used a consecutive sum to solve the problem, but one instead produced a random percentage as a float and then used consecutive subtraction 
+  from that float, returing the final occupation that tipped this new value either to zero or below it
 
 Concerns:
 - Although the comments were helpful, they were not enough to prevent our group from having to ask each other clarification questions
