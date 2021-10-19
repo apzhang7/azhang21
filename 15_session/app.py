@@ -6,11 +6,14 @@
 from flask import Flask             #facilitate flask webserving
 from flask import render_template   #facilitate jinja templating
 from flask import request           #facilitate form submission
+from flask import session
+import os
 
 #the conventional way:
 #from flask import Flask, render_template, request
 
 app = Flask(__name__)    #create Flask object
+app.secret_key = os.urandom(32)
 
 
 '''
@@ -53,10 +56,16 @@ def authenticate():
     #print("***DIAG: request.headers ***")
     #print(request.headers) #same as disp_loginpage
     m = request.method #either get or post
-    print("*** DIAG: COOKIE ***")
-    print(request.form['username'])
+    session["name"] = request.args['username']
+    print(session)
+    #print(request.form['username'])
     return render_template('response.html', username = request.args['username'], method = m)
 
+@app.route("/out")
+def out():
+    session.pop("name")
+    print(session)
+    return render_template('login.html')
 
 if __name__ == "__main__": #false if this file imported as module
     #enable debugging, auto-restarting of server when this file is modified
