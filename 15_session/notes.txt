@@ -1,0 +1,21 @@
+# Team Snaps (Emma Buller, Theo Fahey, Angela Zhang)
+# SoftDev
+# K15 --Sessions Greetings (Sessions and Cookies)
+# 2021-10-14
+Notes:
+-Our error page is just in our login page, with the error as an argument that the login page takes when it is rendered. 
+Observations:
+
+- Creating a Session stores the username in a dictionary.
+- Sessions stores the username until page is refreshed or flask is shut off.
+- Was able to open new tabs, windows, close out of old ones, and the session still held the value of username
+(Can see why cookies can be a huge cybersecurity problem)
+
+
+Questions :
+- What does the secret_key do?
+- Unsure about "checking for request type", what exactly does this mean, what is the difference between GET and POST?
+- Can we have conditionals in HTML or is it solely formatting?
+
+- Sources Used: "https://www.geeksforgeeks.org/how-to-use-flask-session-in-python-flask/"
+  https://pythonbasics.org/flask-cookies/
