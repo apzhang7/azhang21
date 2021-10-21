@@ -1,0 +1,22 @@
+# Team Snaps (Emma Buller, Theo Fahey, Angela Zhang)
+# SoftDev
+# K16 -- All About Database
+# 2021-10-22
+
+What to do
+- Read through files using csv.DictReader()
+- Table columns will depend on the columns of the csv files
+- Use for loops to add each row of the csv file to the table
+	- c.execute("INSERT INTO table VALUES(row[adsjklfae],row[asfj], etc.")
+- DO students.csv first (simpler, no repeated values)
+	- Could use Primary Key for one of the fields
+- For courses.csv we can either
+	- Add on each row individually
+	- Have one row for each id
+		- can be done with while loop?
+			- i.e. while row[id] == temp?
+- Test in terminal using the SELECT commands
+
+Useful Links
+https://docs.python.org/3/library/sqlite3.html
+https://www.sqlite.org/cli.html
