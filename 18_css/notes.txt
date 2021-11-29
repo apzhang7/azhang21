@@ -1,0 +1,14 @@
+Lorem Ipsum Used: http://www.catipsum.com/index.php#.YaRxpdDMKMp
+
+Inline
+ - Messy, becomes repetitive and overall looks pretty bad.
+ - Using divs a lot.
+
+Internal
+
+ - The classes make things nicely organized and less repetitive.
+ - The block of CSS is separated from the HTML which looks much better.
+ 
+ External
+ - Same classes used, nice for organization and less repetitiion.
+ - Links like this: <link rel="stylesheet" href="stylesheet.css"> to the external block of CSS.
