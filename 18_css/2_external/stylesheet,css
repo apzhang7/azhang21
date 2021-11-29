@@ -1,0 +1,25 @@
+
+      div.body{
+          background-color: gray;
+      }
+      h1{
+          color: white; background-color: LightGray; text-align: center;
+      }
+      h3{
+          margin-left: 10px;
+      }
+      ul{
+          float: left; padding-left: 10px;
+      }
+      a{
+          color: white; text-decoration: none; font-weight: bold;
+      }
+      div.main{
+          margin-left: 160px;
+      }
+      h2{
+          margin-top: -30px;
+      }
+      footer{
+          padding: 10px; color: gray; background-color: #565656; text-align: right
+      }
