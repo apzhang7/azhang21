@@ -1,0 +1,26 @@
+Team Go Stop -- Rayat Roy, Angela Zhang
+SoftDev pd1
+K23 -- Bootstrap switchero tutorial assignment
+2021-12-1
+time spent: 3 hours
+
+DISCO:
+- Includes columns and rows which are used to section things like that of foundation, but it's less cell-like.
+- The code includes padding sizing
+- Also includes primary and secondary colors for 
+- 
+- 
+
+QCC:
+- Why do buttons have to be tagged as form? 
+  - Can they be type buttons or no?
+- 
+- 
+- 
+
+Q0:
+- 
+
+Q1:
+-
+
