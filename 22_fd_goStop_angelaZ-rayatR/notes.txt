@@ -1,0 +1,12 @@
+Angela Zhang on team Gostop
+SoftDev
+K22 -- Who does Frame work for? (Framework assignment, explaining foundation)
+2021-11-30
+time spent: <.8 (in class)>
+
+- Foundation docs: https://get.foundation/frameworks-docs.html
+- Foundation requires a LOT of div classes.
+- The cell and grid system were a bit confusing at first, but appear to be quite useful.
+- Forms look very nice.
+- Buttons are simple and work well.
+- Callouts like the success and alert ones look good and are easy to use.
