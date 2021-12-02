@@ -7,20 +7,15 @@ time spent: 3 hours
 DISCO:
 - Includes columns and rows which are used to section things like that of foundation, but it's less cell-like.
 - The code includes padding sizing
-- Also includes primary and secondary colors for 
-- 
-- 
+- Buttons setup requires a bit more in bootstrap, as it needs a form first instead of all in one line
+- Labels and inputs are easier on foundation and you can add placeholder text inside of it.
 
 QCC:
-- Why do buttons have to be tagged as form? 
-  - Can they be type buttons or no?
-- 
-- 
-- 
+- Is there a way to have the buttons not be tagged as form first, but instead simplified to one line? 
+- Can you create multiple "cells" at once with rows and columns?
 
 Q0:
-- 
+- No, we used only the resources provided by our bootstrap tutorial trading partner.
 
 Q1:
--
-
+- We prefer bootstrap because the button creation, use of rows and columns, and easy text with padding is preferable compared to foundation's kind of confusing cell structure, easy input and label creation, as well as preset text callouts.
