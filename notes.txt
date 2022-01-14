@@ -1,0 +1,28 @@
+ssh root@(ip address)
+sudo apt update
+sudo apt install apache2
+
+for flask:
+sudo apt-get install libapache2-mod-wsgi python-dev
+sudo a2enmod wsgi 
+cd /var/www 
+sudo mkdir FlaskApp
+cd FlaskApp
+sudo mkdir FlaskApp
+cd FlaskApp
+sudo mkdir static templates
+sudo nano __init__.py 
+	from flask import Flask
+	app = Flask(__name__)
+	@app.route("/")
+	def hello():
+    		return "Hello, I love Digital Ocean!"
+	if __name__ == "__main__":
+    		app.run()
+    		
+sudo apt-get install python3-pip
+sudo pip install virtualenv 
+sudo virtualenv venv
+source venv/bin/activate 
+sudo pip install Flask 
+sudo python __init__.py 
