@@ -3,7 +3,7 @@ sudo apt update
 sudo apt install apache2
 
 for flask:
-sudo apt-get install libapache2-mod-wsgi python-dev
+sudo apt-get install libapache2-mod-wsgi-py3 python-dev
 sudo a2enmod wsgi 
 cd /var/www 
 sudo mkdir FlaskApp
@@ -24,5 +24,5 @@ sudo apt-get install python3-pip
 sudo pip install virtualenv 
 sudo virtualenv venv
 source venv/bin/activate 
-sudo pip install Flask 
-sudo python __init__.py 
+pip install Flask 
+python __init__.py 
