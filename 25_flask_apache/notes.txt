@@ -1,0 +1,9 @@
+Holy Grail for this: https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+Honorable Mention: https://pythonforundergradengineers.com/flask-app-on-digital-ocean.html (because I use PuTTY too)
+
+When first testing if apache works, you get an "it works!" page and a small explanation of apache.
+
+To enable virtual host: sudo a2ensite FlaskApp
+To restart apache: sudo service apache2 restart
+
+I do not like vim. At all. I will be using nano.
