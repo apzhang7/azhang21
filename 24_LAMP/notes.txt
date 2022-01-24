@@ -1,0 +1,4 @@
+I've destroyed my droplet 2 times already. Third time is the charm.
+
+To enable virtual host: sudo a2ensite FlaskApp
+To restart apache: sudo service apache2 restart
