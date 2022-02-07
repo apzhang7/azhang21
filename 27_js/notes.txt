@@ -1,0 +1,15 @@
+Team Will Smith - Jesse Xie, Angela Zhang
+SoftDev pd2
+K27 -- Basic functions in JavaScript
+2022-02-04
+
+DISCO
+-----------------------------------------------------------------
+* You have to "import" the js file as a script to use methods in the html
+* Declaring a method in javascript requires a semi colon to end the expression
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+*
+=================================================================
