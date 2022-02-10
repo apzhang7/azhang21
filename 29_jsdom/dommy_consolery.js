@@ -90,10 +90,25 @@ var gcd = function(a,b) {
 
 
 
-var button = document.getElementById("b1");
-button.addEventListener("click", () => {
-                            addItem("fib(5) "+fib(5));
-                            addItem("fact(5) "+fact(5));
-                            addItem("gcd (10,8) "+gcd(10,8));
-                          }
-                   );
+function fibing() {
+  document.getElementById("text").innerHTML = "fib " + fib(getRandom(10));
+}
+function facting() {
+  document.getElementById("text2").innerHTML = "fact " + fact(getRandom(5));
+}
+function gcding() {
+  document.getElementById("text3").innerHTML = "gcd " + gcd(getRandom(10),getRandom(10));
+}
+
+var b1 = document.getElementById("b1");
+b1.addEventListener('click', fibing);
+
+var b2 = document.getElementById("b2");
+b2.addEventListener('click', facting);
+
+var b3 = document.getElementById("b3");
+b3.addEventListener('click', gcding);
+
+function getRandom(n) {
+  return Math.floor(Math.random() * n);
+}
