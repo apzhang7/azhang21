@@ -91,21 +91,11 @@ var gcd = function(a,b) {
 
 
 
-var fibing = function () {
-  addItem("fib(5) " + fib(5));
-}
-var facting = function () {
-  addItem("fact(5) " + fact(5));
-}
-var gcding = function () {
-  addItem("gcd(10,8) " + gcd(10, 8));
-}
-
 var btn1 = () => {
-  document.getElementById("a").innerHTML = fib(5);
+  document.getElementById("a").innerHTML;
 }
-a.addEventListener('click', fibing);
+a.addEventListener('click', addItem(fib(5)));
 var btn2 = document.getElementById("b")
-b.addEventListener('click', facting);
+b.addEventListener('click', addItem(fact(5)));
 var btn3 = document.getElementById("c")
-c.addEventListener('click', gcding);
+c.addEventListener('click', addItem(gcd(10,8)));
