@@ -90,6 +90,20 @@ var gcd = function(a,b) {
 
 
 
-var btn1 = document.getElementById("a").addEventListener('click', fib(5));
-var btn2 = document.getElementById("b").addEventListener('click', fact(5));
-var btn3 = document.getElementById("c").addEventListener('click', gcd(10,8));
+
+const fibing = function () {
+  addItem("fib(5) " + fib(5));
+}
+const facting = function () {
+  addItem("fact(5) " + fact(5));
+}
+const gcding = function () {
+  addItem("gcd(10,8) " + gcd(10, 8));
+}
+
+let btn1 = document.getElementById("a")
+a.addEventListener('click', fibing);
+let btn2 = document.getElementById("b")
+b.addEventListener('click', facting);
+let btn3 = document.getElementById("c")
+c.addEventListener('click', gcding);
