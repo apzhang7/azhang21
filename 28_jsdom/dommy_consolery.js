@@ -18,10 +18,10 @@
    (delete this block comment once you are done)
 */
 
-// Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon
-// SoftDev pd0
+// Team AZ :: Angela Zhang, Annabel Zhang
+// SoftDev pd2
 // K28 -- Getting more comfortable with the dev console and the DOM
-// 2022-02-08t
+// 2022-02-08
 // --------------------------------------------------
 
 
@@ -89,19 +89,25 @@ var stripe = function() {
   }
 };
 
-
+//fib
 var fib = function(n) {
   if(n <= 1) return n ;
   else return (fib(n-1) + fib(n-2)) ;
 };
 
-var fac = function(n) {
+//fact
+var fact = function(n) {
   if(n == 1) return 1 ;
-  else return (n * fac(n-1)) ;
+  else return (n * fact(n-1)) ;
 };
 
+//gcd
 var gcd = function(a,b) {
   if(a < b) return gcd(b,a) ;
   if(a % b == 0) return b ;
   else return gcd(b,a%b) ;
 };
+
+addItem("fib(5) " + fib(5));
+addItem("fact(5) " + fact(5));
+addItem("gcd(10,8) " + gcd(10, 8));
