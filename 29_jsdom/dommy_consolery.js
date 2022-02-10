@@ -101,9 +101,11 @@ var gcding = function () {
   addItem("gcd(10,8) " + gcd(10, 8));
 }
 
-const btn1 = document.getElementById("a")
+var btn1 = () => {
+  document.getElementById("a").innerHTML = fib(5);
+}
 a.addEventListener('click', fibing);
-const btn2 = document.getElementById("b")
+var btn2 = document.getElementById("b")
 b.addEventListener('click', facting);
-const btn3 = document.getElementById("c")
+var btn3 = document.getElementById("c")
 c.addEventListener('click', gcding);
