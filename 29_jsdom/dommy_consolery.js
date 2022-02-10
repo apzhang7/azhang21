@@ -90,12 +90,10 @@ var gcd = function(a,b) {
 
 
 
-
-var btn1 = () => {
-  document.getElementById("a").innerHTML;
-}
-a.addEventListener('click', addItem(fib(5)));
-var btn2 = document.getElementById("b")
-b.addEventListener('click', addItem(fact(5)));
-var btn3 = document.getElementById("c")
-c.addEventListener('click', addItem(gcd(10,8)));
+var button = document.getElementById("b1");
+button.addEventListener("click", () => {
+                            addItem("fib(5) "+fib(5));
+                            addItem("fact(5) "+fact(5));
+                            addItem("gcd (10,8) "+gcd(10,8));
+                          }
+                   );
