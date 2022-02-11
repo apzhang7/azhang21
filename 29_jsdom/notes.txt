@@ -1,3 +1,8 @@
+Team AZ :: Angela Zhang, Annabel Zhang
+SoftDev pd2
+K29 -- DOMfoolery++ and buttons
+2022-02-09
+
 variable basics:
 var c = 4
 true

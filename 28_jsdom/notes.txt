@@ -1,3 +1,8 @@
+Team AZ :: Angela Zhang, Annabel Zhang
+SoftDev pd2
+K28 -- Getting more comfortable with the dev console and the DOM
+2022-02-08
+
 variable basics:
 var c = 4
 true
